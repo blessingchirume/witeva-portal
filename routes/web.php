@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ItemController;
+use App\Http\Controllers\OrderController;
 use App\Http\Controllers\PaymentController;
 use App\Http\Controllers\UserController;
 use Codevirtus\Payments\Pesepay;
@@ -40,6 +41,12 @@ Route::prefix('items')->group(function(){
     Route::get('/', [ItemController::class, 'index'])->name('item.index');
     Route::get('/create', [ItemController::class, 'create'])->name('item.create');
     Route::post('/', [ItemController::class, 'store'])->name('item.store');
+});
+
+Route::prefix('order')->group(function(){
+    Route::get('/', [OrderController::class, 'index'])->name('order.index');
+    Route::get('/create', [OrderController::class, 'create'])->name('order.create');
+    Route::post('/', [OrderController::class, 'store'])->name('order.store');
 });
 
 
