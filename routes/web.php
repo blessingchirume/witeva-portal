@@ -24,6 +24,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/create', [UserController::class, 'create'])->name('user.create');
+
+
 Route::group(['middleware' => 'auth'], function () {
     Route::get('/make-payment', [PaymentController::class, 'seamlessPayment'])->name('make-payment');
 
@@ -35,7 +38,6 @@ Route::group(['middleware' => 'auth'], function () {
 
     Route::prefix('users')->group(function () {
         Route::get('/', [UserController::class, 'index'])->name('user.index');
-        Route::get('/create', [UserController::class, 'create'])->name('user.create');
         Route::post('/', [UserController::class, 'store'])->name('user.store');
     });
 
