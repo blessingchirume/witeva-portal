@@ -28,7 +28,7 @@
 	<header class="banner overlay bg-cover" data-background="{{ asset('/images/banner.jpg') }}">
 		<nav class="navbar navbar-expand-md navbar-dark">
 			<div class="container">
-				<a class="navbar-brand px-2" href="index.html">Dot</a>
+				<a class="navbar-brand px-2" href="index.html">Witeva - Fresh </a>
 				<button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation"
 					aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
@@ -39,14 +39,10 @@
 						<li class="nav-item">
 							<a class="nav-link text-dark" href="index.html">Home</a>
 						</li>
+						
+						
 						<li class="nav-item">
-							<a class="nav-link text-dark" href="faq.html">Faq</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link text-dark" href="contact.html">contact</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link text-dark" href="single.html">Inner Page</a>
+							<a class="nav-link text-dark" href="/home">Account</a>
 						</li>
 					</ul>
 				</div>

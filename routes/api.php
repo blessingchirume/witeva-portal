@@ -22,12 +22,11 @@ Route::post('/login', [AuthController::class, 'authenticate']);
 
 
 Route::group(['middleware' => 'auth:api'], function(){
-    // Route::prefix('products', function(){
-    //     Route::get('/', [ApplicationController::class, 'items']);
-    // });
+
     Route::get('/products', [ApplicationController::class, 'items']);
 
     Route::post('/order', [ApplicationController::class, 'order']);
+    
     Route::get('/order', [ApplicationController::class, 'orders']);  
     
     Route::post('/make-payment', [PaymentController::class, 'init']);
