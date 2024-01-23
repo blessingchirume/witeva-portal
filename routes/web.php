@@ -21,7 +21,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return redirect('/');
 });
 
 Route::get('/create', [UserController::class, 'create'])->name('user.create');
