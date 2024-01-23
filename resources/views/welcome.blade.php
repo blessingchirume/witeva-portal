@@ -5,9 +5,13 @@
 	<meta charset="utf-8">
 	<title>Dot</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  
-  <!-- theme meta -->
-  <meta name="theme-name" content="dot" />
+
+	<meta http-equiv='cache-control' content='no-cache'>
+	<meta http-equiv='expires' content='0'>
+	<meta http-equiv='pragma' content='no-cache'>
+
+	<!-- theme meta -->
+	<meta name="theme-name" content="dot" />
 
 	<!-- ** CSS Plugins Needed for the Project ** -->
 
@@ -29,8 +33,7 @@
 		<nav class="navbar navbar-expand-md navbar-dark">
 			<div class="container">
 				<a class="navbar-brand px-2" href="index.html">WITEVA FRESH </a>
-				<button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation"
-					aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+				<button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
 
@@ -39,8 +42,8 @@
 						<li class="nav-item">
 							<a class="nav-link text-dark">Home</a>
 						</li>
-						
-						
+
+
 						<li class="nav-item">
 							<a class="nav-link text-dark" href="/home">Account</a>
 						</li>
@@ -55,8 +58,7 @@
 					<h1 class="text-white mb-3">Support Center &amp; Knowledge base</h1>
 					<p class="text-white mb-4">Find advice and answers from our support team fast or get in touch</p>
 					<div class="position-relative">
-						<input id="search" class="form-control" placeholder="Have a question? Just ask here or enter terms"><i
-							class="ti-search search-icon"></i>
+						<input id="search" class="form-control" placeholder="Have a question? Just ask here or enter terms"><i class="ti-search search-icon"></i>
 					</div>
 				</div>
 			</div>
@@ -121,19 +123,15 @@
 		<div class="container">
 			<div class="row align-items-center">
 				<div class="col-md-8 text-md-left text-center">
-					<p class="mb-md-0 mb-4">Copyright © 2020 Designed and Developed by <a
-							href="https://themefisher.com/">themefisher</a></p>
+					<p class="mb-md-0 mb-4">Copyright © 2020 Designed and Developed by <a href="https://themefisher.com/">themefisher</a></p>
 				</div>
 				<div class="col-md-4 text-md-right text-center">
 					<ul class="list-inline">
-						<li class="list-inline-item"><a class="text-color d-inline-block p-2" href="#"><i
-									class="ti-facebook"></i></a></li>
-						<li class="list-inline-item"><a class="text-color d-inline-block p-2" href="#"><i
-									class="ti-twitter-alt"></i></a></li>
+						<li class="list-inline-item"><a class="text-color d-inline-block p-2" href="#"><i class="ti-facebook"></i></a></li>
+						<li class="list-inline-item"><a class="text-color d-inline-block p-2" href="#"><i class="ti-twitter-alt"></i></a></li>
 						<li class="list-inline-item"><a class="text-color d-inline-block p-2" href="#"><i class="ti-github"></i></a>
 						</li>
-						<li class="list-inline-item"><a class="text-color d-inline-block p-2" href="#"><i
-									class="ti-linkedin"></i></a></li>
+						<li class="list-inline-item"><a class="text-color d-inline-block p-2" href="#"><i class="ti-linkedin"></i></a></li>
 					</ul>
 				</div>
 			</div>
