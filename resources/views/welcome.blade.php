@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+{{--<!DOCTYPE html>
 <html lang="en-us">
 
 <head>
@@ -148,6 +148,6 @@
 	<script src="{{ asset('/plugins/match-height/jquery.matchHeight-min.js') }}"></script>
 	<!-- Main Script -->
 	<script src="{{ asset('/assets/script.js') }}"></script>
-</body>
+</body>--}}
 
 </html>
